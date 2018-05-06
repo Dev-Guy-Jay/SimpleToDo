@@ -184,7 +184,9 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
                                 public void onDateSet(DatePicker view, int year,
                                                       int monthOfYear, int dayOfMonth) {
 
-                                    editDate.setText(dayOfMonth + "/" + monthOfYear + 1 + "/" + year);
+                                    monthOfYear += 1;
+                                    editDate.setText(dayOfMonth + "/" + monthOfYear + "/" + year);
+                                    monthOfYear -= 1;
                                     mYear = year;
                                     mMonth = monthOfYear;
                                     mDay = dayOfMonth;
@@ -358,7 +360,7 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
 
             editTitle.setText(name);
             editDescription.setText(content);
-            editDate.setText(mDay+ "-" + mMonth + 1 + "-" + mYear);
+            editDate.setText(mDay+ "-" + mMonth + "-" + mYear);
             if(!DateFormat.is24HourFormat(getApplicationContext())){
                 if(mHour > 12) {
                     mHour -= 12;
