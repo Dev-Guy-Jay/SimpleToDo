@@ -1,0 +1,43 @@
+<resources>
+    <string name="details">Details</string>
+
+    <string name="app_name">SimpleToDo</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Title</string>
+    <string name="content">content</string>
+    <string name="empty_view">Touch the icon in the Lower-left corner to add a TODO</string>
+    <string name="add_todo">Add a new TODO</string>
+    <string name="edit_todo">Edit TODO</string>
+
+    <string name="insert_todo_failed">Insert TODO failed</string>
+    <string name="insert_todo_success">Insert TODO Successful</string>
+    <string name="update_success">Update Successful</string>
+    <string name="update_failed">Update Failed</string>
+    <string name="todo_no_longer_exist">Todo is no longer available</string>
+
+    <string name="unsaved_changes">You are about to leave without saving your changes</string>
+    <string name="discard">Discard</string>
+    <string name="continue_editing">Continue Editing</string>
+
+    <string name="error_unknown_uri">Cannot query unknown URI</string>
+
+    <string name="alarm_set">Alarm set for: </string>
+    <string name="last_edit">Last Edited: </string>
+    <string name="alarm_is_set">Alarm has been set</string>
+    <string name="alarm_not_set">Alarm has not been set</string>
+    <string name="alarm_calceled">Alarm Canceled</string>
+    <string name="alarm_off">Alarm Off</string>
+    <string name="alarm_on">Alarm_On</string>
+
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+
+    <string name="home">Home</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="delete_todo">Delete Todo</string>
+    <string name="delete_all">Delete All Todos</string>
+
+    <string name="rows_deleted">rows deleted from database</string>
+</resources>

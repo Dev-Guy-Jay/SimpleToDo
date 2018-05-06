@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dev_guy_jay.simpletodo.Activity.MainActivity">
+
+    <item
+        android:id="@+id/action_delete_todo"
+        android:title="@string/delete_todo" />
+
+    <item
+        android:id="@+id/action_delete_all_todo"
+        android:title="@string/delete_all" />
+</menu>
